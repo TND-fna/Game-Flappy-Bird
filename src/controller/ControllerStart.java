@@ -83,13 +83,13 @@ public class ControllerStart {
 
 				button.getBtn().addMouseListener(new MouseAdapter() {
 					public void mouseEntered(MouseEvent e) {
-						button.setBounds(405, 385, 198, 68);
+						button.setBounds(405, 325, 198, 68);
 						button.getBtn().setIcon(new ImageIcon(Loader.loadImage("guide1.png")));
 					}
 
 					public void mouseExited(MouseEvent e) {
 
-						button.setBounds(410, 380, 180, 70);
+						button.setBounds(410, 330, 180, 70);
 						button.getBtn().setIcon(new ImageIcon(Loader.loadImage("guide.png")));
 
 					}
@@ -105,13 +105,13 @@ public class ControllerStart {
 
 				button.getBtn().addMouseListener(new MouseAdapter() {
 					public void mouseEntered(MouseEvent e) {
-						button.setBounds(405, 445, 198, 68);
+						button.setBounds(405, 385, 198, 68);
 						button.getBtn().setIcon(new ImageIcon(Loader.loadImage("about1.png")));
 					}
 
 					public void mouseExited(MouseEvent e) {
 
-						button.setBounds(410, 450, 170, 60);
+						button.setBounds(410, 380, 170, 60);
 						button.getBtn().setIcon(new ImageIcon(Loader.loadImage("about.png")));
 
 					}
@@ -127,13 +127,13 @@ public class ControllerStart {
 			case 5:
 				button.getBtn().addMouseListener(new MouseAdapter() {
 					public void mouseEntered(MouseEvent e) {
-						button.setBounds(405, 505, 198, 68);
+						button.setBounds(405, 445, 198, 68);
 						button.getBtn().setIcon(new ImageIcon(Loader.loadImage("exit1.png")));
 					}
 
 					public void mouseExited(MouseEvent e) {
 
-						button.setBounds(410, 510, 175, 60);
+						button.setBounds(410, 450, 175, 60);
 						button.getBtn().setIcon(new ImageIcon(Loader.loadImage("exit.png")));
 
 					}
